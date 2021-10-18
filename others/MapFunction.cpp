@@ -7,7 +7,7 @@
  *  result = map(lambda x: x + x, numbers)
  *  print(list(result))
  *  This takes in a function and this function operates on the list provided
- *  in the end the final output of a map function is a list
+ *  in the end the final output of a map function is a single digit value
  *  @author Akshat Sahijpal
  */
 
@@ -19,7 +19,7 @@
  * @tparam T Datatype can be any
  * @param fun The function that performs the main operation on the list
  * @param v the list upon which the function performs an operation
- * @return A list is returned
+ * @return A single digit value is returned
  */
 template <typename T>
 T map(int (*fun)(T),std::vector<T> v){
